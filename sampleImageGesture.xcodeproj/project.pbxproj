@@ -14,6 +14,11 @@
 		6D22F71E1FB164AA00FBB9C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D22F71C1FB164AA00FBB9C3 /* LaunchScreen.storyboard */; };
 		6D22F7291FB164AA00FBB9C3 /* sampleImageGestureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D22F7281FB164AA00FBB9C3 /* sampleImageGestureTests.swift */; };
 		6D22F7341FB164AA00FBB9C3 /* sampleImageGestureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D22F7331FB164AA00FBB9C3 /* sampleImageGestureUITests.swift */; };
+		6DF03FA31FB209330089D4C2 /* up.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6DF03FA21FB209330089D4C2 /* up.jpg */; };
+		6DF03FA51FB2093A0089D4C2 /* down.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6DF03FA41FB2093A0089D4C2 /* down.jpg */; };
+		6DF03FA71FB2093F0089D4C2 /* right.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6DF03FA61FB2093F0089D4C2 /* right.jpg */; };
+		6DF03FA91FB209470089D4C2 /* left.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6DF03FA81FB209470089D4C2 /* left.jpg */; };
+		6DF03FAB1FB2094E0089D4C2 /* default.jpg..png in Resources */ = {isa = PBXBuildFile; fileRef = 6DF03FAA1FB2094E0089D4C2 /* default.jpg..png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		6D22F72F1FB164AA00FBB9C3 /* sampleImageGestureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sampleImageGestureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D22F7331FB164AA00FBB9C3 /* sampleImageGestureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleImageGestureUITests.swift; sourceTree = "<group>"; };
 		6D22F7351FB164AB00FBB9C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DF03FA21FB209330089D4C2 /* up.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = up.jpg; sourceTree = "<group>"; };
+		6DF03FA41FB2093A0089D4C2 /* down.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = down.jpg; sourceTree = "<group>"; };
+		6DF03FA61FB2093F0089D4C2 /* right.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = right.jpg; sourceTree = "<group>"; };
+		6DF03FA81FB209470089D4C2 /* left.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = left.jpg; sourceTree = "<group>"; };
+		6DF03FAA1FB2094E0089D4C2 /* default.jpg..png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default.jpg..png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +107,11 @@
 		6D22F7121FB164AA00FBB9C3 /* sampleImageGesture */ = {
 			isa = PBXGroup;
 			children = (
+				6DF03FAA1FB2094E0089D4C2 /* default.jpg..png */,
+				6DF03FA81FB209470089D4C2 /* left.jpg */,
+				6DF03FA61FB2093F0089D4C2 /* right.jpg */,
+				6DF03FA41FB2093A0089D4C2 /* down.jpg */,
+				6DF03FA21FB209330089D4C2 /* up.jpg */,
 				6D22F7131FB164AA00FBB9C3 /* AppDelegate.swift */,
 				6D22F7151FB164AA00FBB9C3 /* ViewController.swift */,
 				6D22F7171FB164AA00FBB9C3 /* Main.storyboard */,
@@ -232,8 +247,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DF03FA71FB2093F0089D4C2 /* right.jpg in Resources */,
 				6D22F71E1FB164AA00FBB9C3 /* LaunchScreen.storyboard in Resources */,
+				6DF03FA51FB2093A0089D4C2 /* down.jpg in Resources */,
 				6D22F71B1FB164AA00FBB9C3 /* Assets.xcassets in Resources */,
+				6DF03FA31FB209330089D4C2 /* up.jpg in Resources */,
+				6DF03FAB1FB2094E0089D4C2 /* default.jpg..png in Resources */,
+				6DF03FA91FB209470089D4C2 /* left.jpg in Resources */,
 				6D22F7191FB164AA00FBB9C3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +527,7 @@
 				6D22F73A1FB164AB00FBB9C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6D22F73B1FB164AB00FBB9C3 /* Build configuration list for PBXNativeTarget "sampleImageGestureTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +536,7 @@
 				6D22F73D1FB164AB00FBB9C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6D22F73E1FB164AB00FBB9C3 /* Build configuration list for PBXNativeTarget "sampleImageGestureUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +545,7 @@
 				6D22F7401FB164AB00FBB9C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

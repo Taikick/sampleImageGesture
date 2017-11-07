@@ -22,14 +22,52 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6sL-ds-9LY">
-                                <rect key="frame" x="16" y="28" width="343" height="606"/>
+                                <rect key="frame" x="16" y="139" width="343" height="360"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Xop-gT-ZXL" appends="YES" id="d8A-5I-vAI"/>
+                                    <outletCollection property="gestureRecognizers" destination="4pR-e1-tI0" appends="YES" id="mO1-L3-FEe"/>
+                                    <outletCollection property="gestureRecognizers" destination="fVo-na-74c" appends="YES" id="gpA-8S-Kcv"/>
+                                    <outletCollection property="gestureRecognizers" destination="mC9-G2-oSn" appends="YES" id="duk-3g-djJ"/>
+                                </connections>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZKu-ZW-7dn">
+                                <rect key="frame" x="16" y="45" width="343" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="myImageView" destination="6sL-ds-9LY" id="353-sA-bRZ"/>
+                        <outlet property="myLabel" destination="ZKu-ZW-7dn" id="Deh-YE-RLE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="Xop-gT-ZXL">
+                    <connections>
+                        <action selector="swipeRight:" destination="BYZ-38-t0r" id="6IQ-8f-tH7"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="left" id="4pR-e1-tI0">
+                    <connections>
+                        <action selector="swipeLeft:" destination="BYZ-38-t0r" id="NaG-LZ-erV"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="down" id="fVo-na-74c">
+                    <connections>
+                        <action selector="swipeDown:" destination="BYZ-38-t0r" id="9XN-nY-l1w"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="up" id="mC9-G2-oSn">
+                    <connections>
+                        <action selector="swipeUp:" destination="BYZ-38-t0r" id="j7X-cM-B3c"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="-79.200000000000003" y="137.18140929535232"/>
         </scene>
