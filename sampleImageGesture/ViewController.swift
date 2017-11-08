@@ -41,9 +41,14 @@ class ViewController: UIViewController {
         myImageView.image = UIImage(named:"up.jpg")
         myLabel.text = "やばいよやばいよ〜"
         print("上にスワイプされたお！！")
-   
     }
 
+    @IBAction func tapAction(_ sender: UITapGestureRecognizer) {
+        myImageView.image = UIImage(named:"tap.jpg")
+        myLabel.text = "ですよね〜"
+        print("タップされたお！！")
+
+    }
     
     
     override func didReceiveMemoryWarning() {

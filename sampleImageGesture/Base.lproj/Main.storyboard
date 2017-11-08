@@ -30,6 +30,7 @@
                                     <outletCollection property="gestureRecognizers" destination="4pR-e1-tI0" appends="YES" id="mO1-L3-FEe"/>
                                     <outletCollection property="gestureRecognizers" destination="fVo-na-74c" appends="YES" id="gpA-8S-Kcv"/>
                                     <outletCollection property="gestureRecognizers" destination="mC9-G2-oSn" appends="YES" id="duk-3g-djJ"/>
+                                    <outletCollection property="gestureRecognizers" destination="bpl-l9-yN8" appends="YES" id="9aC-l4-dYP"/>
                                 </connections>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZKu-ZW-7dn">
@@ -68,6 +69,11 @@
                         <action selector="swipeUp:" destination="BYZ-38-t0r" id="j7X-cM-B3c"/>
                     </connections>
                 </swipeGestureRecognizer>
+                <tapGestureRecognizer id="bpl-l9-yN8">
+                    <connections>
+                        <action selector="tapAction:" destination="BYZ-38-t0r" id="qMl-RQ-aFW"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="-79.200000000000003" y="137.18140929535232"/>
         </scene>
